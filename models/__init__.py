@@ -1,12 +1,4 @@
-# #!/usr/bin/python3
-# """This module instantiates an object of class FileStorage"""
-# from models.engine.file_storage import FileStorage
-
-
-# storage = FileStorage()
-# storage.reload()
-
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """Create a unique storage instance for your application"""
 
 from os import environ
@@ -28,3 +20,11 @@ else:  # file storage selected
     from models.engine.file_storage import FileStorage
     storage = FileStorage()
     storage.reload()
+
+# #!/usr/bin/python3
+# """This module instantiates an object of class FileStorage"""
+# from models.engine.file_storage import FileStorage
+
+
+# storage = FileStorage()
+# storage.reload()

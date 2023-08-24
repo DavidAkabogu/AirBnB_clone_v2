@@ -1,13 +1,3 @@
-# #!/usr/bin/python3
-# """ State Module for HBNB project """
-# from models.base_model import BaseModel
-
-
-# class State(BaseModel):
-#     """ State class """
-#     name = ""
-
-
 #!/usr/bin/python3
 """This is the state class"""
 from models.base_model import BaseModel, Base
@@ -45,3 +35,12 @@ class State(BaseModel, Base):
                     cities_list.append(city)
 
             return cities_list
+
+# #!/usr/bin/python3
+# """ State Module for HBNB project """
+# from models.base_model import BaseModel
+
+
+# class State(BaseModel):
+#     """ State class """
+#     name = ""

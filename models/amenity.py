@@ -1,12 +1,3 @@
-# #!/usr/bin/python3
-# """ State Module for HBNB project """
-# from models.base_model import BaseModel
-
-
-# class Amenity(BaseModel):
-#     name = ""
-
-
 #!/usr/bin/python3
 """This is the amenity class"""
 from models.base_model import BaseModel, Base
@@ -23,3 +14,11 @@ class Amenity(BaseModel, Base):
     name = Column(String(128), nullable=False)
 
     # place_amenities = relationship('Place', secondary='place_amenity')
+
+# #!/usr/bin/python3
+# """ State Module for HBNB project """
+# from models.base_model import BaseModel
+
+
+# class Amenity(BaseModel):
+#     name = ""
